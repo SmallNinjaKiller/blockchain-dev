@@ -19,3 +19,8 @@
 
 ```bash
 git clone https://github.com/SmallNinjaKiller/blockchain-dev.git
+
+### Крок 2: Встановлення залежностей
+
+```bash
+npm install
