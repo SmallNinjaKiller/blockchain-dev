@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Blockchain Dev
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Цей проєкт демонструє основи розробки смарт-контрактів на Ethereum та деплой на тестову мережу Sepolia.
 
-Try running some of the following tasks:
+## Опис
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+В цьому репозиторії ви знайдете смарт-контракт **HelloWorld**, який був розгорнутий у тестовій мережі **Sepolia**. Він демонструє базову роботу з Hardhat для компіляції, деплою та тестування контрактів.
+
+## Технології
+
+- **Hardhat** — для розробки та тестування смарт-контрактів.
+- **Solidity** — мова для створення смарт-контрактів.
+- **Ethers.js** — бібліотека для взаємодії з блокчейн-мережами.
+- **Sepolia** — тестова мережа для Ethereum.
+
+## Як запустити
+
+### Крок 1: Клонування репозиторію
+
+```bash
+git clone https://github.com/SmallNinjaKiller/blockchain-dev.git
