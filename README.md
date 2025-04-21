@@ -19,8 +19,35 @@
 
 ```bash
 git clone https://github.com/SmallNinjaKiller/blockchain-dev.git
+```
 
 ### Крок 2: Встановлення залежностей
 
 ```bash
 npm install
+```
+
+### Крок 3: Налаштування середовища
+Створіть файл .env у корені проєкту і додайте наступні змінні:
+
+```bash
+SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/ТВІЙ_API_KEY
+PRIVATE_KEY=0xТВІЙ_ПРИВАТНИЙ_КЛЮЧ
+```
+
+### Крок 4: Деплой контракту
+Для деплою смарт-контракту в тестову мережу Sepolia використовуйте наступну команду:
+
+```bash
+npx hardhat run scripts/deploy.js --network sepolia
+```
+
+### Тести
+Для тестування контрактів використовується Hardhat. Для запуску тестів:
+
+```bash
+npx hardhat test
+```
+
+### Ліцензія
+Цей проєкт ліцензується за ліцензією MIT.
